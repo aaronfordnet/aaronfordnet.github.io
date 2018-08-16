@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   font-variant-ligatures: common-ligatures;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 1.2;
 }
 
 p {
@@ -299,6 +300,26 @@ section.employment p {
   a.button-nested:hover { color: #fff; background-color: #00a6cc;}
   a.button-nested:hover::after {border-color: #00a6cc transparent transparent transparent;}
 
+  /* =====================================
+            FOOTER
+  ======================================= */
+
+  .footer {
+    background-color: #252525;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer p {
+    color: #888;
+    font-size: 14px;
+  }
+
+  .love {
+    color: #ff4d57;
+    font-size: 12px;
+  }
 
 
   /* =====================================
@@ -306,7 +327,13 @@ section.employment p {
   ======================================= */
 
   @media screen and (max-width: 480px) {
+    .main-name {
+      font-size: 45px;
+    }
 
+    .summary-container h3 {
+      font-size: 22px;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -321,9 +348,5 @@ section.employment p {
 
 
   @media print {
-
-   img {
-     display: none !important;
-   }
 
   }
