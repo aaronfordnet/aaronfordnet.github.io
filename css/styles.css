@@ -227,7 +227,7 @@ section.employment p {
   ======================================= */
   .project {
     max-width: 428px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
   }
 
   .projects img {
