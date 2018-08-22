@@ -148,6 +148,10 @@ h2.title:after {
   margin-bottom: 10px;
 }
 
+.summary-container a {
+  font-weight: 500;
+}
+
 /* =====================================
           SKILL STACK
 ======================================= */
@@ -305,9 +309,8 @@ a.button-nested:hover::after {border-color: #00a6cc transparent transparent tran
 ======================================= */
 
 .footer {
-  background-color: #e6e6e6;
   padding: 20px 0;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
